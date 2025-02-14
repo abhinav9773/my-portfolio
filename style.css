@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+.About {
+  padding: 15px;
+  color: gray;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+body {
+  background: linear-gradient(to right, #1a1a1a, #444444);
+  color: white;
+  overflow-x: hidden;
+}
+.contact-box {
+  background: #191d2b;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+.contact-title {
+  font-size: 2.5rem;
+  padding: 10px;
+  font-weight: bold;
+  color: #4d4d8d;
+  text-align: top;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px;
+  padding: 12px;
+  background-color: #191a2c;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #2f3c7e;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #1b244a;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.my-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #2f3c7e;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #1b244a;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f3c7e;
+  padding: 15px 30px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.nav-links a:hover {
+  background-color: #34495e;
+}
+p {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 15px;
+  margin-left: -19px;
+  line-height: 1.4;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.profile-section {
+  background-color: #0f1221;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.profile-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2f3c7e;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-box {
+  background: #191d2b;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  height: 450px;
+  width: 600px;
+}
+.profile-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(138, 78, 78, 0.3);
+}
+
+.profile-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.profile-box p {
+  font-size: 1rem;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.skill-section {
+  background-color: #0f1221;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2f3c7e;
+  text-align: center;
+  width: 100%;
+}
+
+.skill-box {
+  background: #191d2b;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  height: 450px;
+  width: 600px;
+}
+.skill-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(138, 78, 78, 0.3);
+}
+
+.skill-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.skill-box p {
+  font-size: 1rem;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+#home,
+#about,
+#skills,
+#contact {
+  background: linear-gradient(to right, #1a1a1a, #444444);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 5px 0;
+  }
+
+  section {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .my-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
