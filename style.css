@@ -73,12 +73,21 @@ body {
 .contact-button:hover {
   background-color: #1b244a;
 }
+img {
+  width: 50px;
+  margin-right: 10px;
+  background-color: #1a2b4c;
+}
 
+.logo-image {
+  display: flex;
+  align-items: center;
+}
 h1 {
   font-size: 3rem;
   text-align: left;
 }
-.logo {
+.logo-text {
   font-size: 24px;
   font-weight: bold;
   color: white;
