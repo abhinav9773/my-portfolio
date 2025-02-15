@@ -5,13 +5,13 @@
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
 }
-.About {
-  padding: 15px;
-  color: gray;
-  line-height: 1.8;
-  font-size: 1rem;
+a {
+  text-decoration: none;
 }
-
+a:hover {
+  cursor: pointer;
+  color: #5068df;
+}
 body {
   background: linear-gradient(to right, #1a1a1a, #444444);
   color: white;
@@ -129,6 +129,7 @@ h1 {
 
 .nav-links a:hover {
   background-color: #34495e;
+  cursor: pointer;
 }
 p {
   text-align: left;
@@ -164,6 +165,7 @@ p {
   height: 450px;
   width: 600px;
 }
+
 .profile-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px rgba(138, 78, 78, 0.3);
