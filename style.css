@@ -73,6 +73,7 @@ body {
 .contact-button:hover {
   background-color: #1b244a;
 }
+
 img {
   width: 50px;
   margin-right: 10px;
@@ -82,10 +83,6 @@ img {
 .logo-image {
   display: flex;
   align-items: center;
-}
-h1 {
-  font-size: 3rem;
-  text-align: left;
 }
 .logo-text {
   font-size: 24px;
@@ -140,11 +137,11 @@ h1 {
   background-color: #34495e;
   cursor: pointer;
 }
+
 p {
   text-align: left;
   font-size: 1.2rem;
   padding: 15px;
-  margin-left: -19px;
   line-height: 1.4;
   font-family: "Courier New", Courier, monospace;
 }
@@ -215,6 +212,7 @@ p {
   height: 450px;
   width: 600px;
 }
+
 .skill-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px rgba(138, 78, 78, 0.3);
@@ -246,30 +244,4 @@ section {
 #skills,
 #contact {
   background: linear-gradient(to right, #1a1a1a, #444444);
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-links li {
-    margin: 5px 0;
-  }
-
-  section {
-    font-size: 24px;
-    padding: 10px;
-  }
-
-  .my-button {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
 }
